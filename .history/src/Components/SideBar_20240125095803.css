@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    padding: 0;
+}
+.leftSide{
+    display: flex;
+    max-width: 25%;
+    max-height: 100%;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: -50px;
+}
+.leftSide .profilePhoto{
+    float: left;
+    width: 50px;
+    height: 50px;
+    /* margin-left: -50px; */
+    margin-right: 10px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+.desc{
+    display: table-column;
+    align-items: center;
+    padding-top: 10px;
+    /* padding: 5px;
+    background-color: aqua; */
+}
+.desc .names{
+    font-size: small;
+    margin-left: -13px;
+}
+.desc p{
+    font-size: x-small;
+    color: rgb(121, 118, 118)
+}
+.homepage{
+background-color: #132A02;
+width: 180px;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+justify-content: space-around;
+/* margin-left: -55px; */
+}
+.homepage .homeIcon{
+    width: 30px;
+    float: left;
+    margin-left: -20px;
+}
+.homepage h2{
+    color: white;
+    font-size: medium;
+    margin-left: -70px;
+}
+.mutual{
+background-color: #fff;
+width: 180px;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+justify-content: space-around;
+}
+.mutual .groupIcon{
+    width: 30px;
+    float: left;
+    margin-left: -20px;
+}
+.mutual h2{
+    color: #183601;
+    font-size: medium;
+    margin-left: -70px;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.leftSide{
+    display: flex;
+    max-width: 25%;
+    max-height: 100%;
+    padding: 20px;
+    background-color: aqua;
+}
+.leftSide .profilePhoto{
+    float: left;
+    wi
+}
